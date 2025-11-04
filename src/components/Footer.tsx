@@ -1,6 +1,10 @@
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
-export default function Footer() {
+interface FooterProps {
+  onNavigate: (page: 'home' | 'members' | 'career') => void;
+}
+
+export default function Footer({ onNavigate }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -26,7 +30,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <button onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-400 hover:text-white transition text-sm">
+                <button onClick={() => onNavigate('home')} className="text-gray-400 hover:text-white transition text-sm">
                   Home
                 </button>
               </li>
@@ -38,6 +42,16 @@ export default function Footer() {
               <li>
                 <button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-400 hover:text-white transition text-sm">
                   About Us
+                </button>
+              </li>
+              <li>
+                <button onClick={() => onNavigate('members')} className="text-gray-400 hover:text-white transition text-sm">
+                  Our Members
+                </button>
+              </li>
+              <li>
+                <button onClick={() => onNavigate('career')} className="text-gray-400 hover:text-white transition text-sm">
+                  Careers
                 </button>
               </li>
               <li>
