@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -33,6 +33,8 @@ function App() {
           <Route path="/members" element={<Members />} />
           <Route path="/career" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
+
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
         <Footer onNavigate={(page) => navigate(`/${page}`)} />
