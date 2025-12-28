@@ -36,11 +36,11 @@ export default function Footer({ onNavigate }: FooterProps) {
                   About
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button onClick={() => onNavigate('members')} className="hover:text-white transition">
                   Our Members
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button onClick={() => onNavigate('career')} className="hover:text-white transition">
                   Careers

@@ -3,37 +3,37 @@ import { Briefcase, MapPin, Clock, DollarSign, X } from 'lucide-react';
 
 const openings = [
   {
-    title: 'Senior Full Stack Developer',
+    title: 'Associate Java Software Engineer',
     department: 'Engineering',
     location: 'Remote / Hybrid',
     type: 'Full-time',
     salary: 'Negotiable',
     description: 'Join our development team to build cutting-edge web applications using modern technologies.',
   },
+  // {
+  //   title: 'Cloud Solutions Architect',
+  //   department: 'Infrastructure',
+  //   location: 'Hybrid',
+  //   type: 'Full-time',
+  //   salary: 'Negotiable',
+  //   description: 'Design and implement scalable cloud infrastructure for enterprise clients.',
+  // },
   {
-    title: 'Cloud Solutions Architect',
-    department: 'Infrastructure',
-    location: 'Hybrid',
-    type: 'Full-time',
-    salary: 'Negotiable',
-    description: 'Design and implement scalable cloud infrastructure for enterprise clients.',
-  },
-  {
-    title: 'Cybersecurity Analyst',
+    title: 'Associate Cybersecurity Analyst',
     department: 'Security',
     location: 'Hybrid',
     type: 'Full-time',
     salary: 'Negotiable',
     description: 'Protect our clients digital assets and conduct security assessments.',
   },
-  {
-    title: 'Investment Advisor',
-    department: 'Investment',
-    location: 'Hybrid',
-    type: 'Full-time',
-    salary: 'Negotiable',
-    description: 'Provide strategic investment guidance to our diverse client portfolio.',
-  },
+  // {
+  //   title: 'Investment Advisor',
+  //   department: 'Investment',
+  //   location: 'Hybrid',
+  //   type: 'Full-time',
+  //   salary: 'Negotiable',
+  //   description: 'Provide strategic investment guidance to our diverse client portfolio.',
+  // },
   {
     title: 'UI/UX Designer',
     department: 'Design',
@@ -42,14 +42,14 @@ const openings = [
     salary: 'Negotiable',
     description: 'Create beautiful and intuitive user experiences for our applications.',
   },
-  {
-    title: 'Data Analyst',
-    department: 'Analytics',
-    location: 'Hybrid',
-    type: 'Full-time',
-    salary: 'Negotiable',
-    description: 'Transform data into actionable insights for business decision-making.',
-  },
+  // {
+  //   title: 'Data Analyst',
+  //   department: 'Analytics',
+  //   location: 'Hybrid',
+  //   type: 'Full-time',
+  //   salary: 'Negotiable',
+  //   description: 'Transform data into actionable insights for business decision-making.',
+  // },
 ];
 
 const benefits = [

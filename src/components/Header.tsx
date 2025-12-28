@@ -12,7 +12,7 @@ export default function Header() {
     { path: '/', label: 'Home' },
     { path: '/services', label: 'Services' },
     { path: '/about', label: 'About' },
-    { path: '/members', label: 'Our Members' },
+    // { path: '/members', label: 'Our Members' },
     { path: '/career', label: 'Career' },
     { path: '/contact', label: 'Contact' },
   ];

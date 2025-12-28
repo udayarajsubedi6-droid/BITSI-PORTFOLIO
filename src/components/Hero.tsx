@@ -267,7 +267,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12 shadow-xl border border-green-100">
+          {/* <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12 shadow-xl border border-green-100">
             <div className="text-center mb-8">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Happy Customers</h2>
               <p className="text-gray-600">See what our clients say about their experience with BITSI</p>
@@ -321,7 +321,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 <ChevronRight className="text-green-600" size={24} />
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

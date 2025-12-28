@@ -43,23 +43,23 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <a href="mailto:info@bitsinetwork.com" className="text-green-600 hover:text-green-700 transition">
-                      info@bitsinetwork.com
+                    <a href="mailto:bitsinetworks@gmail.com" className="text-green-600 hover:text-green-700 transition">
+                      bitsinetworks@gmail.com
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
+                {/* <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Phone className="text-white" size={24} />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
                     <a href="tel:+15551234567" className="text-green-600 hover:text-green-700 transition">
-                      +1 (555) 123-4567
+                      +977 9869539234
                     </a>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -110,7 +110,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
-                  placeholder="John Doe"
+                  placeholder="Your name"
                   required
                 />
               </div>
@@ -126,7 +126,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"
-                  placeholder="john@example.com"
+                  placeholder="you@example.com"
                   required
                 />
               </div>
